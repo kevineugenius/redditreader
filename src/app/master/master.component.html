@@ -1,0 +1,16 @@
+<div class="container" style="overflow-y: scroll; max-height: 890px;">
+
+  <div *ngFor="let item of data; index as i" class="container reddit-post light-mode-z4">
+    <div class="row" (click)="clicked(i)" routerLink="/detail" style="border-radius: 5px;">
+      <div class="col-sm-1">
+        <img class="reddit-post-img rounded" src="{{item['data']['thumbnail']}}"/>
+      </div>
+      <div class="col-sm-10 reddit-post-title">
+        {{item['data']['title']}}
+      </div>
+      <div class="col-sm-1 reddit-post-score">
+        {{item['data']['score']}}
+      </div>
+    </div>
+  </div>
+</div>

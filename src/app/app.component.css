@@ -1,0 +1,30 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.page-header {
+  line-height: 45px;
+  min-height: 45px;
+  font-size: large;
+  color: whitesmoke;
+}
+
+.search-bar{
+  min-height: 60px;
+  line-height: 60px;
+}
+.master-detail{
+  height: 900px;
+}
+.page-buttons{
+  min-height: 60px;
+}
+
+#subRedditSelector {
+  width: 80%;
+  height: 75%;
+}
+
+.inline-flexk2 {
+  display: inline-flex;
+
+}
+

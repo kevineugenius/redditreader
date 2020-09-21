@@ -1,0 +1,27 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:host {
+  width: 99%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.reddit-post {
+  padding: 3px;
+  margin: 3px;
+}
+
+.reddit-post-img {
+  object-fit: cover;
+  width: 90px;
+  height: 90px;
+}
+
+.reddit-post-title {
+  margin-left: 10px;
+  margin-right: -10px; 
+}
+
+.reddit-post-score {
+  color: #E9102C;
+}

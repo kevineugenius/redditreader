@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.light-mode-z1 {
+  background-color: #001629;
+}
+
+.light-mode-z2 {
+  background-color: #354466;
+}
+
+.light-mode-z3 {
+  background-color: #68A3B8
+}
+
+.light-mode-z4 {
+  background-color: #99D8D8;
+}
+
+.light-mode-text {
+  color: whitesmoke;
+}
+
+.light-mode-highlight {
+  background-color: #E9102C;
+}
